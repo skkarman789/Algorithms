@@ -34,6 +34,6 @@ public class findMax {
                 arr[i-1]=temp;
             }
         }
-        System.out.println(arr[arr.length-1]);
+        System.out.println(arr[arr.length-1]);;
     }
 }
