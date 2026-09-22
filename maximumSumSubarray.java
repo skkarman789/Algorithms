@@ -48,10 +48,6 @@ public class maximumSumSubarray {
         int result=maxSubArray(nums);
         System.out.println(result);
 
-
-
-
-
     }
 
     public static int maxSubArray(int[] nums) {
