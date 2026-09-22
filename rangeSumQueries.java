@@ -42,8 +42,13 @@ public class rangeSumQueries {
             arr[i]=arr[i]+arr[i-1];
         }
 
-        if(firstIndex==lastIndex){
-            System.out.println(arr[firstIndex]);
+        // if(firstIndex==lastIndex){
+        //     System.out.println(arr[firstIndex]);
+        // }
+
+        /*what is left==0  then ot will throw index out of bound exception */
+        if(lastIndex==0){
+            System.out.println(arr[lastIndex]);
         }
         
         System.out.println(arr[lastIndex]-arr[firstIndex-1]);
